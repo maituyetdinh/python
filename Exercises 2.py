@@ -2,12 +2,12 @@
 print ('------ Bài tập 1 : Fizz / Buzz ------')
 x=float(input('Nhập số : '))
 print ('Bạn vừa nhập', x)
-if x%3==0:
-    print(x, 'là Fizz')
-if x%5==0:
-    print(x, 'là Buzz')
 if x%3==0 and x%5==0:
     print (x, 'là FizzBuzz')
+elif x%3==0:
+    print(x, 'là Fizz')
+elif x%5==0:
+    print(x, 'là Buzz')
 else:
     print('Opps')
 
