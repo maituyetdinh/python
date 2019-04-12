@@ -12,7 +12,7 @@ else:
     print('Opps')
 
 #----------- Bài 2 -----------
-print('------ Bài tập 2 : In ***** ------')
+print('----------- Bài tập 2 : In ***** ------')
 row=int(input('nhập số dòng: '))
 if row==5:
     print ('*')
@@ -24,7 +24,7 @@ else: print('Không in *')
 
 
 #----------- Bài 3 -----------
-print('------ Bài tập 3 : EVEN / ODD ------')
+print('----------- Bài tập 3 : EVEN / ODD ------')
 limit=int(input('nhập số giới hạn: '))
 x=0
 while x<=limit:
@@ -34,7 +34,7 @@ while x<=limit:
     x+= 1
 
 #----------- Bài 4 -----------
-print('------ Bài tập 4 : tính điểm tốc độ ------')
+print('----------- Bài tập 4 : tính điểm tốc độ ------')
 #speed : 70< x<=75 =>1 ; 75 <=80 : 2 ; > 12 points, print: “License suspended”
 x=int(input('Nhập tốc độ : '))
 point=0
@@ -46,6 +46,7 @@ if point >=12:
     print('You have' , point, 'points. License suspended')
 else : print('You have' , point, 'point(s). Go on!')
 
+#nháp
 
 
 
