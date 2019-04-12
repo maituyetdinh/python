@@ -11,7 +11,6 @@ elif x%5==0:
 else:
     print('Opps')
 
-
 #----------- Bài 2 -----------
 print('------ Bài tập 2 : In ***** ------')
 row=int(input('nhập số dòng: '))
@@ -22,7 +21,6 @@ if row==5:
     print ('****')
     print ('*****')
 else: print('Không in *')
-
 
 
 #----------- Bài 3 -----------
