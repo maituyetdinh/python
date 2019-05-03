@@ -37,6 +37,8 @@ while x<=limit:
 print('----------- Bài tập 4 : tính điểm tốc độ ------')
 #speed : 70< x<=75 =>1 ; 75 <=80 : 2 ; > 12 points, print: “License suspended”
 x=int(input('Nhập tốc độ : '))
+if x <= 70:
+    print ('OK')
 point=0
 x=x-75
 while x>=0:
